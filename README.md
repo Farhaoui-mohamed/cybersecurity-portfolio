@@ -1,125 +1,48 @@
 
-# Network Port & Service Scanner
+# Mohamed Farhaoui
 
-A Python-based network reconnaissance tool integrating Nmap to identify open TCP ports, detect services, and retrieve service version information.
+### Cybersecurity Engineering Student | CEH Certified
 
-## Project Overview
+Cybersecurity enthusiast interested in Ethical Hacking, Network Security, Penetration Testing and System Administration.
 
-This project automates network port scanning and service identification.
-It generates structured JSON and HTML reports to help visualize scan results.
+Currently pursuing an Engineering Degree in Cybersecurity at TEK-UP, Tunisia.
 
-## Features
+## Education
 
-- TCP port scanning
-- Open port identification
-- Service detection using Nmap
-- Service version detection
-- XML scan result parsing
-- Automated JSON report generation
-- Professional HTML report generation
-- Input validation and error handling
+- **TEK-UP** — Engineering Cycle, Cybersecurity (4th Year)
+- **ISET Sousse** — Technology of Information, Embedded and Mobile Systems
 
-## Technologies
+## Technical Skills
 
-| Technology | Purpose |
-|---|---|
-| Python 3 | Main programming language |
-| Nmap | Network scanning and service detection |
-| Linux / Kali Linux | Development and testing environment |
-| JSON | Structured reporting |
-| HTML / CSS | Report visualization |
-| Git / GitHub | Version control |
+- **Cybersecurity:** Kali Linux, Nmap, Wireshark, Metasploit, Burp Suite, OWASP, TryHackMe, CTF
+- **Networking:** Cisco, GNS3, TCP/IP
+- **Systems:** Linux, Red Hat, Windows Server
+- **Programming:** Python, Java, PHP, JavaScript, SQL
+- **DevOps:** Git, GitHub
 
-## Project Structure
+## Certifications
 
-```text
-network-vulnerability-scanner/
-├── README.md
-├── scanner.py
-├── report.json
-├── report.html
-└── screenshots/
-    └── report-preview.png
-```
+- Certified Ethical Hacker (CEH) — EC-Council
 
-## Requirements
+## Featured Projects
 
-- Python 3
-- Nmap
-- Linux operating system
+- [Network Port & Service Scanner](network-vulnerability-scanner/)
+- Smart Container IoT — ESP32, MQTT, Node-RED
 
-## Installation
+## Professional Experience
 
-Clone the repository:
+- CRMN — Final Year Internship
+- DRÄXLMAIER — Internship
+- TEK-UP — International Summer Training
 
-```bash
-git clone https://github.com/Farhaoui-mohamed/cybersecurity-portfolio.git
-```
+## Languages
 
-Navigate to the project:
+- Arabic — Native
+- English — B1
+- French — A2
 
-```bash
-cd cybersecurity-portfolio/network-vulnerability-scanner
-```
+## Contact
 
-Check Nmap:
-
-```bash
-nmap --version
-```
-
-## Usage
-
-Example: scan localhost ports from 1 to 1024.
-
-```bash
-python3 scanner.py 127.0.0.1 --start 1 --end 1024
-```
-
-Example: scan port 8001 in a local testing lab.
-
-```bash
-python3 scanner.py 127.0.0.1 --start 8001 --end 8001
-```
-
-## Generated Reports
-
-The scanner automatically generates:
-
-- `report.json` – Structured scan information.
-- `report.html` – Visual scan report.
-
-## Screenshots
-
-### HTML Security Scan Report
-
-![Network Scanner Report](screenshots/report-preview.png)
-
-## Learning Objectives
-
-- Understand TCP port scanning.
-- Practice network reconnaissance.
-- Identify network services.
-- Understand Nmap service detection.
-- Parse XML scan output.
-- Generate automated security reports.
-
-## Limitations
-
-This tool performs port scanning and service identification.
-It does not currently perform automated vulnerability detection or exploitation.
-
-## Author
-
-**Mohamed Farhaoui**
-
-Cybersecurity Engineering Student | CEH Certified
-
-[LinkedIn](https://www.linkedin.com/in/mohamed-farhaoui-913754224)
-
-[GitHub](https://github.com/Farhaoui-mohamed)
-
-## Disclaimer
-
-This tool is intended for authorized security testing and educational purposes only.
-Only scan systems and networks for which you have explicit permission.
+- Email: farhaouimohamed46@gmail.com
+- LinkedIn: [Mohamed Farhaoui](https://www.linkedin.com/in/mohamed-farhaoui-913754224)
+- GitHub: [Farhaoui-mohamed](https://github.com/Farhaoui-mohamed)
